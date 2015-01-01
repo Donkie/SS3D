@@ -1,5 +1,5 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "ss3d/map/grille"
+	"$basetexture" "ss3d/map/airlock"
 	"$surfaceprop" "Metal"
 }

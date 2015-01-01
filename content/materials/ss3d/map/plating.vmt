@@ -1,4 +1,5 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "ss3d/map/plating"
+	"$surfaceprop" "Metal"
 }
