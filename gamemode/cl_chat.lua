@@ -1,6 +1,11 @@
 function GM:OnPlayerChat( player, strText, bTeamOnly, bPlayerIsDead )
 	local tab = {};
 
+	if ( !isRoundActive ) then
+		chat.AddText( Color( 0, 0, 255 ), "OOC: " .. player:Nick() .. ": " .. strText );
+		return true;
+	end
+
 	if ( bPlayerIsDead ) then
 		table.insert( tab, Color( 205, 0, 205 ) );
 		table.insert( tab, "*DEAD* " );
